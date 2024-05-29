@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slider{
+    border: 2px solid gray;
+    width: 200px;
+    height: 150px;
+    display: flex;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+}
+.imageslider{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#lbtn,#rbtn{
+  padding: 5px;
+  position: absolute;
+}
+#lbtn{
+    left: 10px;
+}
+#rbtn{
+    right: 10px;
+}
